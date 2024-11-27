@@ -7,7 +7,8 @@ Waste Level Monitoring: Real-time detection of trash levels categorized as Low, 
 Weight Calculation: Estimates the weight of trash using depth, volume, and density values.
 Compact and Efficient Design: Ideal for homes, offices, and public spaces.
 
-Table of Contents
+**Table of Contents**
+
 Introduction
 
 Hardware Requirements
@@ -26,7 +27,7 @@ Contributing
 
 License
 
-Hardware Requirements
+**Hardware Requirements**
 Arduino Uno
 Ultrasonic Sensors (2x)
 Servo Motor
@@ -35,7 +36,7 @@ Power Supply
 Dustbin (Customized for project dimensions)
 
 
-Software Requirements
+**Software Requirements**
 Arduino IDE (Version 1.8.19 or later)
 Serial Monitor for data visualization
 
