@@ -9,13 +9,21 @@ Compact and Efficient Design: Ideal for homes, offices, and public spaces.
 
 Table of Contents
 Introduction
+
 Hardware Requirements
+
 Software Requirements
+
 Setup and Installation
+
 How It Works
+
 Code
+
 Future Enhancements
+
 Contributing
+
 License
 
 Hardware Requirements
