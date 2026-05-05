@@ -1,75 +1,148 @@
-# Smart-Trash-Can-BINBOT
-An intelligent and hygienic waste management system designed to automate lid opening, monitor waste levels, and calculate trash weight for enhanced convenience and sustainability.
+# 🗑️ Smart Trash Can – BINBOT
 
-Features
-Automated Lid Mechanism: Hands-free lid operation using ultrasonic sensors and a servo motor.
-Waste Level Monitoring: Real-time detection of trash levels categorized as Low, Medium, or High.
-Weight Calculation: Estimates the weight of trash using depth, volume, and density values.
-Compact and Efficient Design: Ideal for homes, offices, and public spaces.
+An intelligent and hygienic waste management system designed to automate lid operation, monitor waste levels, and estimate trash weight for enhanced convenience and sustainability.
 
-**Table of Contents**
+---
 
-Introduction
+## 📌 Features
 
-Hardware Requirements
+### 🔹 Automated Lid Mechanism
+- Hands-free operation using an ultrasonic sensor  
+- Servo motor opens the lid when a user is detected within 20 cm  
+- Automatically closes after 3 seconds  
 
-Software Requirements
+### 🔹 Waste Level Monitoring
+- Real-time trash level detection using an ultrasonic sensor  
+- Categorizes levels as:
+  - Low
+  - Medium
+  - High  
 
-Setup and Installation
+### 🔹 Weight Estimation
+- Calculates approximate trash weight using:
+  - Measured depth  
+  - Bin volume  
+  - Predefined density constant  
 
-How It Works
+### 🔹 Compact & Efficient Design
+- Suitable for:
+  - Homes 🏠  
+  - Offices 🏢  
+  - Public spaces 🏫  
 
-Code
+---
 
-Future Enhancements
+## 📖 Table of Contents
 
-Contributing
+- [Introduction](#introduction)
+- [Hardware Requirements](#hardware-requirements)
+- [Software Requirements](#software-requirements)
+- [Setup and Installation](#setup-and-installation)
+- [How It Works](#how-it-works)
+- [Code](#code)
+- [Future Enhancements](#future-enhancements)
+- [Contributing](#contributing)
+- [License](#license)
 
-License
+---
 
+## 📘 Introduction
 
-**Hardware Requirements**
+BINBOT is a smart waste management solution that promotes hygiene and efficiency by reducing physical contact and providing real-time waste insights. It integrates sensors and embedded systems to create an automated and intelligent trash bin.
 
-Arduino Uno
+---
 
-Ultrasonic Sensors (2x)
+## 🔧 Hardware Requirements
 
-Servo Motor
+- Arduino Uno  
+- Ultrasonic Sensors (x2)  
+- Servo Motor  
+- Breadboard  
+- Jumper Wires  
+- Power Supply  
+- Customized Dustbin  
 
-Breadboard and Jumper Wires
+---
 
-Power Supply
+## 💻 Software Requirements
 
-Dustbin (Customized for project dimensions)
+- Arduino IDE (v1.8.19 or later)  
+- Serial Monitor (for debugging and visualization)  
 
+---
 
+## ⚙️ Setup and Installation
 
-**Software Requirements**
+1. Install Arduino IDE  
+2. Connect components as per circuit design  
+3. Upload the Arduino code  
+4. Open Serial Monitor to view outputs  
+5. Power the system  
 
-Arduino IDE (Version 1.8.19 or later)
+---
 
-Serial Monitor for data visualization
+## ⚡ How It Works
 
+### 🟢 Lid Control
+- Sensor detects user proximity (< 20 cm)  
+- Servo motor opens lid  
+- Lid remains open for 3 seconds  
+- Automatically closes afterward  
 
-**How It Works**
+### 🟡 Waste Level Detection
+- Second ultrasonic sensor measures trash depth  
+- Classifies waste levels:
+  - **Low** → Bin mostly empty  
+  - **Medium** → Half-filled  
+  - **High** → Almost full  
 
-Lid Control:
+### 🔵 Weight Calculation
+- Uses formula:
+  Weight = Volume × Density
 
-An ultrasonic sensor detects when a user approaches the bin (within 20 cm).
+  
+- Depth measurement helps estimate volume  
+- Density is predefined based on average waste type  
 
-The servo motor automatically opens the lid, waits for 3 seconds, and then closes it.
+---
 
-Waste Level Detection:
+## 🧠 Code
 
+> Upload the Arduino sketch via Arduino IDE.  
+> Ensure correct pin configuration for:
+- Ultrasonic sensors  
+- Servo motor  
 
-Another ultrasonic sensor measures the depth of trash in the bin.
+---
 
-Categorizes waste levels as Low, Medium, or High.
+## 🚀 Future Enhancements
 
-Weight Calculation:
+- IoT integration for remote monitoring  
+- Mobile app support 📱  
+- Smart alerts when bin is full  
+- Solar-powered system ☀️  
+- AI-based waste classification  
 
+---
 
-Calculates trash weight using the measured depth, volume of the bin, and a predefined density constant.
+## 🤝 Contributing
 
+Contributions are welcome!  
 
-A Test Change 
+1. Fork the repository  
+2. Create a new branch  
+3. Commit your changes  
+4. Submit a pull request  
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+## ✨ A Test Change
+This section is added to reflect recent updates and improvements in the project documentation.
+
+---
