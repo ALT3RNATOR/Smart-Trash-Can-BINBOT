@@ -5,7 +5,7 @@ Features
 Automated Lid Mechanism: Hands-free lid operation using ultrasonic sensors and a servo motor.
 Waste Level Monitoring: Real-time detection of trash levels categorized as Low, Medium, or High.
 Weight Calculation: Estimates the weight of trash using depth, volume, and density values.
-Compact and Efficient Design: Ideal for homes, offices, and public spaces. 
+Compact and Efficient Design: Ideal for homes, offices, and public spaces.
 
 **Table of Contents**
 
