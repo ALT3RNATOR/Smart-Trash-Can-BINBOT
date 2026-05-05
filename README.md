@@ -1,4 +1,4 @@
-# 🗑️ Smart Trash Can – BINBOT
+# 🗑️ Smart Trash Can – BINBOT 
 
 An intelligent and hygienic waste management system designed to automate lid operation, monitor waste levels, and estimate trash weight for enhanced convenience and sustainability.
 
