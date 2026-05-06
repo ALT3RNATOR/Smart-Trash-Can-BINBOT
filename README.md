@@ -2,7 +2,7 @@
 
 An intelligent and hygienic waste management system designed to automate lid operation, monitor waste levels, and estimate trash weight for enhanced convenience and sustainability.
 
---
+----
 
 ## 📌 Features
 
